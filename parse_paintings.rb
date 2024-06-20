@@ -1,7 +1,6 @@
 require 'nokogiri'
 require 'json'
 
-
   def extract_painting_data(html_file)
     doc = Nokogiri::HTML(File.read(html_file))
 
